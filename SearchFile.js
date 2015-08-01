@@ -32,6 +32,6 @@ function searchfile(filename, folder) {
 
 }
 
-var filename=process.argv[2]?processData:'SearFile.js';
+var filename=process.argv[2]?processData:'SearchFile.js';
 var dirname=process.argv[3]?processData:__dirname;
 searchfile(filename,dirname);
